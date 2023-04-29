@@ -1,0 +1,20 @@
+lineCount
+16
+execute
+fill ~ ~5 ~ ~8 ~ ~8 redstone_block destroy
+execute
+fill ~ ~ ~ ~8 ~ ~8 magma_block destroy
+execute
+fill ~1 ~ ~1 ~1 ~ ~1 crimson_fence hollow
+execute
+fill ~1 ~ ~1 ~1 ~ ~1 crimson_fence hollow
+execute
+fill ~1 ~1 ~1 ~1 ~1 ~1 pointed_dripstone hollow
+execute
+tp @a ~ ~6 ~
+execute
+gamemode survival @a
+execute
+give @a tnt 128
+execute
+tell @a You are now in TNT spleef! Try to blow up your opponent!
